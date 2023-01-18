@@ -1,0 +1,107 @@
+/* Establece la fuente y estilos de texto para todos los elementos */
+
+*{
+    /*background:#f3f5fc;*/
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    }
+header{
+    background-color: #0A3871;
+}
+.logo{
+    background-color: #f3f5fc;
+    padding-top: 10PX;
+    margin-left: 10px;
+    width: 5%;
+    }
+
+    /* Establece el color de fondo del body */
+body {
+    background-color: #f3f5fc;
+    
+}
+
+/* Establece el diseño de la sección principal y margen */
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+/* Establece el margen superior del área de texto de entrada */
+.input-texto {
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+}
+
+/* Establece la posición y diseño del área de texto de salida */
+.mensaje {
+    border: none;
+    border-radius: 24px;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-image: url("imagenes/muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size:  white 300px;
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+/* Establece la posición del botón copiar */
+.copiar {
+    border: 1px solid #0A3871;
+    border-radius: 20px;
+    color:#0A3871;
+    cursor: pointer;
+    height: 67px;
+    width: 336px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 205px;
+}
+
+/* Establece el diseño de los botones de encriptar y desencriptar */
+.botones {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+/* Establece el color de fondo del botón de encriptar */
+.encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Establece el margen del botón de desencriptar */
+.desencriptar {
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+/* Establece el tamaño de letra de la información */
+.informacion {
+font-size: 25px;
+}
+
+footer{
+    background-color: #0A3871;
+    color: #f3f5fc;
+}
+.enlaces{
+    background-color: #f3f5fc;
+    color: #0A3871;
+}
+ 

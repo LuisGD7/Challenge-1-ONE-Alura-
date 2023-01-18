@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Declarar tipo de documento y idioma -->
+    <meta charset="UTF-8">
+    <!-- Declarar compatibilidad con diferentes navegadores -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Declarar el viewport para dispositivos móviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Importar una fuente de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <!-- Importar un archivo de estilos CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Título de la página -->
+    <title>Challenge encriptador</title>
+</head>
+<body>
+    <header>
+        <!-- Imagen con el logotipo de Alura -->
+        <img class="logo" src="imagenes/logoalura.png" alt="Logo letra alura">
+    </header>
+    <main>
+        <section>
+            <!-- Área de texto para ingresar un mensaje a encriptar/desencriptar -->
+            <textarea class="input-texto" cols="40" rows="6" placeholder="Ingrese el texto aqui"></textarea>
+            <div id="div-desaparece">
+                <!-- Información sobre el formato de texto permitido -->
+                <h6 class="informacion">&#9888; Solo letras minúsculas y sin acentos.</h6>
+            </div>
+            <div class="botones">
+                <!-- Botón para encriptar el texto ingresado -->
+                <button class="encriptar" onclick="btnEncriptar()">
+                    Encriptar
+                </button>
+                <!-- Botón para desencriptar el texto ingresado -->
+                <button class="desencriptar" onclick="btnDesencriptar()">
+                    Desencriptar
+                </button>
+            </div>
+        </section>
+        <section class="mensaje-box">
+            <!-- Área de texto para mostrar el mensaje encriptado/desencriptado -->
+            <textarea class="mensaje" cols="18" rows="8"></textarea>
+            <!-- Botón para copiar el mensaje encriptado/desencriptado al portapapeles -->
+            <button class="copiar" onclick="copiar()">Copiar</button>
+        </section>
+    </main>
+    <!-- Importar un archivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+<footer>
+    <div class="container">
+        <!-- Información de copyright y enlaces de navegación -->
+        <p>Copyright © 2023 Elaborado por Luis Gómez, para ONE by Alura Latam </p>
+        <nav>
+            <ul class="enlaces">
+          <li><a href="https://www.instagram.com/aluralatam/?hl=es">Instagram Alura Latam</a></li>
+          <li><a href="https://www.oracle.com/mx/education/oracle-next-education/">Acerca de ONE</a></li>
+          </li>
+        
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</html>
